@@ -1,9 +1,10 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using static UnityEngine.Physics2D;
 
-[RequireComponent(typeof(Rigidbody2D))] 
+[RequireComponent(typeof(Rigidbody2D))]
 
 public class scr_playerMovement : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class scr_playerMovement : MonoBehaviour
     private Rigidbody2D body;
     private new Collider2D collider;
     public LayerMask groundLayer;
+
+    public bool key = false;
+    // private bool isTop = true;
 
     // Start is called before the first frame update
     void Start()
@@ -47,8 +51,10 @@ public class scr_playerMovement : MonoBehaviour
         if ((Input.GetKeyDown(KeyCode.Space)) && (IsGrounded))
         {
             body.AddForce(new Vector2(0f, verticalSpeed), ForceMode2D.Impulse);
-        }    
+        }
+        
     }
+    
 
     private bool IsGrounded
     {
