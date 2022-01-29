@@ -9,20 +9,16 @@ public class scr_key : MonoBehaviour
 
     
     // Start is called before the first frame update
-    void Start()
-    {
-        
-        
-    }
+
 
     // Update is called once per frame
     void Update()
     {
         if (inRange && Input.GetKeyDown(KeyCode.E))
         {
-            GameObject player = GameObject.Find("Player");
-            scr_playerMovement keyCheck = player.GetComponent<scr_playerMovement>();
-            keyCheck.key = true;
+            // GameObject player = GameObject.Find("Player");
+            // scr_playerMovement keyCheck = player.GetComponent<scr_playerMovement>();
+            scr_player.Instance.key = true;
             Destroy(gameObject);
         }
 

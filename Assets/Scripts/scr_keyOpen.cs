@@ -5,23 +5,25 @@ using System;
 
 public class scr_keyOpen : MonoBehaviour
 {
-    public GameObject gameobject;
+    // public Transform player;
 
+    public float maxDistance = 2;
     // Start is called before the first frame update
-    void Start()
-    {
 
-    }
 
     // Update is called once per frame
     void Update()
     {
-        if ((Math.Abs(gameobject.transform.position.x - gameObject.transform.position.x) <= 2) &&
-            (Math.Abs(gameobject.transform.position.y - gameObject.transform.position.y) <= 1))
+        var distancePlayer = Vector2.Distance(scr_player.Instance.transform.position, transform.position);
+        
+        // if ((Math.Abs(player.transform.position.x - gameObject.transform.position.x) <= 2) &&
+        //     (Math.Abs(player.transform.position.y - gameObject.transform.position.y) <= 1))
+        
+        if (distancePlayer <= maxDistance)
         {
-            GameObject player = GameObject.Find("Player");
-            scr_playerMovement keyCheck = player.GetComponent<scr_playerMovement>();
-            if (Input.GetKeyDown(KeyCode.E) && keyCheck.key)
+            // GameObject player = GameObject.Find("Player");
+            // scr_player keyCheck = player.GetComponent<scr_player>();
+            if (Input.GetKeyDown(KeyCode.E) && scr_player.Instance.key)
             {
                 Destroy(gameObject);
             }
