@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class resetButton : MonoBehaviour
 {
-    public Object activeScene;
+    // public Object activeScene;
     void Start()
     {
         //Debug.Log("LoadSceneA");

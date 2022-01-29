@@ -26,11 +26,18 @@ public class scr_key : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        inRange = true;
+        if (other.tag == "Player")
+        {
+            inRange = true;
+        }
+        
     }
     
     private void OnTriggerExit2D(Collider2D other)
     {
-        inRange = false;
+        if (other.tag == "Player")
+        {
+            inRange = false;
+        }
     }
 }
