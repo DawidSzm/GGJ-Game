@@ -4,26 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class scr_nextScene : MonoBehaviour
-{
-    public Object scene;
+{   
+    [Scene]
+    public int scene;
     // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
     
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             Debug.Log("Any Message");
-            SceneManager.LoadScene(scene.ToString());
+            SceneManager.LoadScene(scene);
         }
 
     }

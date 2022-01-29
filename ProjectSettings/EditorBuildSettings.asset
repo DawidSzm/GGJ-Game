@@ -6,9 +6,33 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/BasicRoom.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/Level_1.unity
+    guid: 92c2e05c7b995ac4d9ab00aa2d648cd6
   - enabled: 1
-    path: Assets/Scenes/Empty.unity
-    guid: e7584bd4055a7d74d8e76fe910b2a7a8
+    path: Assets/Scenes/Level_2.unity
+    guid: 8fe3c13b10b109c4386b158d3bc072a7
+  - enabled: 1
+    path: Assets/Scenes/Level_3.unity
+    guid: 6edec986d62a9154594dccff45b46311
+  - enabled: 1
+    path: Assets/Scenes/Level_4.unity
+    guid: 54b6aca605994e949b61f39c0aac0681
+  - enabled: 1
+    path: Assets/Scenes/Level_5.unity
+    guid: 9bf0bcb0cdfcb2d4cba6f9ecc2970760
+  - enabled: 1
+    path: Assets/Scenes/Level_6.unity
+    guid: 34b69f0f7d8399246974b89b4281ccd3
+  - enabled: 1
+    path: Assets/Scenes/Level_7.unity
+    guid: cede920f5c2d3aa42a66c3f9223a49ef
+  - enabled: 1
+    path: Assets/Scenes/Level_8.unity
+    guid: c921a96d21ef5ff4b9d05602a9bdd8af
+  - enabled: 1
+    path: Assets/Scenes/Level_9.unity
+    guid: 4c121f8fdb3d8f247848762eae56d37c
+  - enabled: 1
+    path: Assets/Scenes/Level_10.unity
+    guid: 9a7738d5bec87904abb943291f6206c4
   m_configObjects: {}
