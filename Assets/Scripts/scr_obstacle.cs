@@ -24,6 +24,7 @@ public class scr_obstacle : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.E))
             {
+                
                 Destroy(gameObject);
             }
         }

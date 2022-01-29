@@ -25,6 +25,7 @@ public class scr_keyOpen : MonoBehaviour
             // scr_player keyCheck = player.GetComponent<scr_player>();
             if (Input.GetKeyDown(KeyCode.E) && scr_player.Instance.key)
             {
+                scr_player.Instance.key = false;
                 Destroy(gameObject);
             }
 
