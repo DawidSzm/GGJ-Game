@@ -60,22 +60,22 @@ public class scr_player : MonoBehaviourSingleton<scr_player>
 
         if (Input.GetKeyDown(KeyCode.Tab))
         {
-            if (isTop)
-            {
-                var localPositionBlack = layerBlack.transform.position;
-                localPositionBlack.y += 1;
-                layerBlack.transform.position = localPositionBlack;
-                isTop = false;
-            }
-            else
-            {
-                isTop = true;
-            }
+            // if (isTop)
+            // {
+            //     var localPositionBlack = layerBlack.transform.position;
+            //     localPositionBlack.y += 1;
+            //     layerBlack.transform.position = localPositionBlack;
+            //     isTop = false;
+            // }
+            // else
+            // {
+            //     isTop = true;
+            // }
            
             var localScaleBlack = layerBlack.transform.localScale;
             // var localScaleWhite = layerWhite.transform.localScale;
 
-            localScaleBlack.y *= -1;
+            localScaleBlack.y = -localScaleBlack.y;
             // localScaleWhite.y *= 1;
             
             layerBlack.transform.localScale = localScaleBlack;
