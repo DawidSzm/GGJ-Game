@@ -50,6 +50,7 @@ public class scr_player : MonoBehaviourSingleton<scr_player>
         }
         else if (Input.GetKey(KeyCode.D))
         {
+            
             transform.position += new Vector3(speed * Time.deltaTime, 0f, 0f);
         }
 
