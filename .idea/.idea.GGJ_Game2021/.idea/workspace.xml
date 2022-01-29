@@ -7,11 +7,17 @@
     <list default="true" id="536bf831-6a83-440b-86f6-c7b77fcba891" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GGJ_Game2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GGJ_Game2021/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/scr_key.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/scr_key.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/scr_keyOpen.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/scr_keyOpen.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/scr_obstacle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/scr_obstacle.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/scr_playerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/scr_player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/scr_playerMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/scr_player.cs.meta" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/scr_playerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/scr_playerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+>>>>>>> DeleteObject
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +77,11 @@
       <option name="presentableId" value="Default" />
       <updated>1643397639041</updated>
       <workItem from="1643397646896" duration="5000" />
+<<<<<<< HEAD
       <workItem from="1643397683691" duration="13221000" />
+=======
+      <workItem from="1643397683691" duration="7909000" />
+>>>>>>> DeleteObject
     </task>
     <servers />
   </component>
