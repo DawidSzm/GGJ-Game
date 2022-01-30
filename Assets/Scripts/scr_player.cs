@@ -22,7 +22,13 @@ public class scr_player : MonoBehaviourSingleton<scr_player>
 
     public bool key = false;
     private bool isTop = true;
-
+    // public Animation idle;
+    // public Animation walk;
+    // public Animation jump;
+    // public Animation idle_black;
+    // public Animation walk_black;
+    // public Animation jump_black;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -47,15 +53,47 @@ public class scr_player : MonoBehaviourSingleton<scr_player>
         if (Input.GetKey(KeyCode.A))
         {
             transform.position -= new Vector3(speed * Time.deltaTime, 0f, 0f);
+            // var player = gameObject.transform.localScale;
+            // player.x = 1;
+            // if (isTop)
+            // {
+            //     walk.Play();
+            // }
+            // else
+            // {
+            //     walk_black.Play();
+            // }
         }
         else if (Input.GetKey(KeyCode.D))
         {
-            
+            // var player = gameObject.transform.localScale;
+            // player.x = -1;
+            //
             transform.position += new Vector3(speed * Time.deltaTime, 0f, 0f);
+            // if (isTop)
+            // {
+            //     
+            //     walk.Play();
+            // }
+            // else
+            // {
+            //     
+            //     walk_black.Play();
+            // }
         }
 
         if ((Input.GetKeyDown(KeyCode.Space)) && (IsGrounded))
         {
+            // if (isTop)
+            // {
+            //     
+            //     jump.Play();
+            // }
+            // else
+            // {
+            //     
+            //     jump_black.Play();
+            // }
             body.AddForce(new Vector2(0f, verticalSpeed), ForceMode2D.Impulse);
         }
 
